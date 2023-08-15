@@ -36,4 +36,4 @@ API_ID = os.getenv("API_ID")
 API_HASH = os.getenv("API_HASH")
 SESSION = os.getenv("SESSION") 
 
-barath = Client(name="Barath", session_string=SESSION, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="Barath"),)
+barath = Client(name="Barath", export_session_string=SESSION, api_id=API_ID, api_hash=API_HASH, plugins=dict(root="Barath"),)
